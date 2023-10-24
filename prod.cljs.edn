@@ -1,0 +1,5 @@
+^{:css-dirs ["resources/public/css"]
+  :mode :build-once
+  :auto-bundle :webpack}
+{:main irida-upload-monitor.core
+ :optimizations :simple}

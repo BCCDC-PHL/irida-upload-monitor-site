@@ -1,0 +1,5 @@
+^{:css-dirs ["resources/public/css"]
+  :auto-bundle :webpack}
+{:main irida-upload-monitor.core
+ :preloads [devtools.preload]
+ :source-map true}
