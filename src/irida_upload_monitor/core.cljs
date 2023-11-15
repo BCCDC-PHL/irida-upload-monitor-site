@@ -12,7 +12,7 @@
 
 (defonce db (r/atom {}))
 
-(def app-version "v0.1.0")
+(def app-version "v0.1.1")
 
 (defn load-uploaded-sequencing-runs 
   "Pull the list of uploaded sequencing runs from the server and loads them into the db"
